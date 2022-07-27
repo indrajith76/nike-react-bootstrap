@@ -26,23 +26,71 @@
   </head>
   <body>
     <header>
-        <!-- navber section start -->
-        <section class=" bg-slate-400">
-            <nav class="container mx-auto pt-3 pb-3 flex justify-between items-center">
-                <div class="nav-logo">
-                    <img src="icons/Logo.png" class="h-12" alt="">
-                </div>
-                <div class="nav-items">
-                    <ul class="flex">
-                        <li class="text-commonOrenge font-bold text-base ml-10"><a href="#">Products</a></li>
-                        <li class="text-commonOrenge font-bold text-base ml-10"><a href="#">About us</a></li>
-                        <li class="text-commonOrenge font-bold text-base ml-10"><a href="#">Home</a></li>
-                        <li class="text-commonOrenge font-bold text-base ml-10"><a href="#">Contact us</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </section>
-        <!-- navber section end -->
+      <!-- navber section start -->
+      <section class="bg-slate-600">
+        <nav
+          class="container mx-auto pt-3 pb-3 flex justify-between items-center"
+        >
+          <div class="nav-logo">
+            <img src="icons/Logo.png" class="h-12" alt="" />
+          </div>
+          <div class="nav-items">
+            <ul class="hidden lg:flex">
+              <li class="text-commonOrenge font-bold text-base ml-10">
+                <a href="#">Products</a>
+              </li>
+              <li class="text-commonOrenge font-bold text-base ml-10">
+                <a href="#">About us</a>
+              </li>
+              <li class="text-commonOrenge font-bold text-base ml-10">
+                <a href="#">Home</a>
+              </li>
+              <li class="text-commonOrenge font-bold text-base ml-10">
+                <a href="#">Contact us</a>
+              </li>
+            </ul>
+            <div class="dropdown dropdown-end block lg:hidden">
+              <label
+                tabindex="0"
+                class="btn btn-outline btn-ghost m-1 bg-slate-600"
+              >
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-6 w-6"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  stroke-width="2"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="dropdown-content menu p-2 shadow bg-slate-600 rounded-box w-52"
+              >
+                <li class="text-commonOrenge font-bold text-base">
+                  <a href="#">Products</a>
+                </li>
+                <li class="text-commonOrenge font-bold text-base">
+                  <a href="#">About us</a>
+                </li>
+                <li class="text-commonOrenge font-bold text-base">
+                  <a href="#">Home</a>
+                </li>
+                <li class="text-commonOrenge font-bold text-base">
+                  <a href="#">Contact us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </section>
+      <!-- navber section end -->
     </header>
     <main></main>
     <footer></footer>
