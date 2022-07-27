@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NIKE React</title>
+    <!-- tailwind links -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.20.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              clifford: "#da373d",
+              commonOrenge: "#FA804C",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body>
+    <header>
+        <!-- navber section start -->
+        <section class=" bg-slate-400">
+            <nav class="container mx-auto pt-3 pb-3 flex justify-between items-center">
+                <div class="nav-logo">
+                    <img src="icons/Logo.png" class="h-12" alt="">
+                </div>
+                <div class="nav-items">
+                    <ul class="flex">
+                        <li class="text-commonOrenge font-bold text-base ml-10"><a href="#">Products</a></li>
+                        <li class="text-commonOrenge font-bold text-base ml-10"><a href="#">About us</a></li>
+                        <li class="text-commonOrenge font-bold text-base ml-10"><a href="#">Home</a></li>
+                        <li class="text-commonOrenge font-bold text-base ml-10"><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <!-- navber section end -->
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
